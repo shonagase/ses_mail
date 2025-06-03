@@ -19,9 +19,9 @@ from bs4 import BeautifulSoup
 SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
 
 # BigQuery設定
-PROJECT_ID = 'sho-naga'
-DATASET_ID = 'ses_email'
-TABLE_ID = 'testtest_email_messages'
+PROJECT_ID = 'testtest'
+DATASET_ID = 'test'
+TABLE_ID = 'testtest'
 
 def create_bq_table():
     """BigQueryのテーブルを作成する関数"""
